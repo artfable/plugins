@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="../../libs/jquery-2.2.3.js"></script>
+    <script src="../../libs/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script src="../../libs/materialize/js/materialize.js"></script>
+
+    <link rel="stylesheet" href="../../libs/materialize/css/materialize.css">
+
+    <script src="../timepicker.js"></script>
+    <link rel="stylesheet" href="../timepicker.css">
+
+    <title>Demo</title>
+</head>
+<body class="container">
+    <div class="card-panel">
+        <div class="input-field">
+            <input id="demo_timepicker" type="text">
+            <label for="demo_timepicker">Timepicker</label>
+        </div>
+    </div>
+
+    <script>
+        $(function() {
+            $('#demo_timepicker').timepicker({startHour: 10});
+        });
+    </script>
+</body>
+</html>

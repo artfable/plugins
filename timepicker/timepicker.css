@@ -1,0 +1,61 @@
+
+/*.md-timepicker-container {*/
+    /*position: relative;*/
+/*}*/
+
+.md-timepicker-block {
+    background-color: white;
+}
+
+.md-timepicker-time-block {
+    font-size: 24px;
+}
+
+.md-timepicker-time-block .active {
+    background-color: yellow;
+}
+
+.md-timepicker-time-block .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.md-timepicker-time-block .row div:nth-child(odd) {
+    cursor: pointer;
+}
+
+.md-timepicker-clock-block {
+    position: relative;
+    padding: 15px;
+}
+
+.md-timepicker-clock {
+    font-size: 15px;
+    line-height: 1.5;
+    height: 270px;
+    width: 270px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.md-timepicker-clock li {
+    transition: 1s ease-out;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    left: 139px;
+    top: 139px;
+}
+
+.md-timepicker-clock li:hover {
+    background-color: green;
+}
+
+.md-timepicker-footer {
+    justify-content: center;
+}
